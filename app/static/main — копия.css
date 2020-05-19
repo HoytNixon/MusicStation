@@ -1,0 +1,115 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color:#18060D;
+}
+h1,h2,h3,h4,h5,h6 {
+	color:#0095a6;
+	font-family: 'Exo 2', sans-serif;
+}
+a {
+	display:block;
+	text-decoration: none;
+	color:#910f00;
+}
+a:hover {
+	text-decoration: none;
+	color:#0095a6;
+	transition-duration: 0.1s;
+}
+
+.bottom-nav {
+	border-top: 1px solid #910f00;
+	font-size: 10px;
+}
+.navbar {
+	justify-content: center;
+}
+.nav {
+	margin-top: 20px;
+	align-items: center;
+	background-color: rgba(255,255,255,0.05);
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-shadow: 0.05rem .1rem rgba(0,0,0,.1);
+	box-shadow:inset 0 0 3rem rgba(0,0,0,.9);
+}
+
+.logo {
+	font-family: 'Baloo 2', cursive;
+	font-size: 30px;
+	font-weight:800;
+	text-align: center;
+}
+.nav-text {
+	color:#910f00;
+	display:block;
+	text-decoration: none;
+	font-family: 'Baloo 2', cursive;
+	font-size: 20px;
+	font-weight:600;
+}
+.signin {
+	display: flex;
+	font-family: 'Baloo 2', cursive;
+	font-size: 20px;
+	font-weight:800;
+	align-items: center;
+}
+.sign-in {
+	padding-left: 7px;
+}
+.form {
+	align-content: center;
+	color: #fff;
+	padding-top: 40px;
+	padding-left: 100px;
+}
+input#username {
+	border: 1px solid black;
+	border-radius: 4px;
+}
+input#password {
+	border: 1px solid black;
+	border-radius: 4px;
+}
+input#submit {
+	border: 1px solid black;
+	border-radius: 4px;
+}
+input#remember_me {
+	border: 1px solid black;
+	border-radius: 4px;
+}
+.conten {
+	height: 70vh;
+	padding-top: 40px;
+}
+.messege {
+	display: flex;
+	justify-content: center;
+}
+.conten h3 {
+	text-transform: uppercase;
+}
+.radioblock {
+	border: 2px solid white;
+	border-color:#910f00;
+	border-radius: 4px;
+	margin-top: 60px;
+	padding-top: 10px;
+	font-weight: 900;
+}
+.tagblock {
+	border: 2px solid white;
+	border-color:#910f00;
+	border-radius: 4px;
+	margin-top: 60px;
+	padding-top: 10px;
+}
+.radioblock__im {
+	padding-bottom: 5px;
+}
+.radioblock__img {
+	width: 40px;
+}
