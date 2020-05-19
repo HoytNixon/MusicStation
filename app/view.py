@@ -21,6 +21,11 @@ def signin():
 		flash('Login requested for user {}, remember_me= {}'.format(form.username.data, form.remember_me.data))
 		return redirect (url_for('index'))
 	return render_template('signin.html', form=form)
+@app.route('/logout')
+def logout():
+	return render_template('logout.html')
+
+
 
 @app.route('/<radiokey>/listen')
 def radiopage(radiokey):
